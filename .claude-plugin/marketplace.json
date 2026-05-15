@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Talk to the Spiffy checkout platform from Claude Code. Works with any Spiffy account, just supply your own API key.",
-    "version": "0.2.2"
+    "version": "0.2.3"
   },
   "plugins": [
     {
@@ -21,7 +21,18 @@
       "repository": "https://github.com/juliandickie/spiffy-plugin",
       "license": "MIT",
       "category": "marketing-automation",
-      "keywords": ["spiffy", "checkout", "commerce", "crm", "customer-lookup", "reports", "mrr", "affiliate", "promo-codes", "mcp"]
+      "keywords": [
+        "spiffy",
+        "checkout",
+        "commerce",
+        "crm",
+        "customer-lookup",
+        "reports",
+        "mrr",
+        "affiliate",
+        "promo-codes",
+        "mcp"
+      ]
     }
   ]
 }
