@@ -1,0 +1,27 @@
+{
+  "name": "spiffy",
+  "owner": {
+    "name": "Julian Dickie",
+    "url": "https://github.com/juliandickie"
+  },
+  "metadata": {
+    "description": "Talk to the Spiffy checkout platform from Claude Code. Works with any Spiffy account, just supply your own API key.",
+    "version": "0.2.2"
+  },
+  "plugins": [
+    {
+      "name": "spiffy",
+      "source": ".",
+      "description": "Talk to the Spiffy checkout platform from Claude Code. Customer lookup, MRR and affiliate and churn reports, customer notes, and one-off promo code generation. Works with any Spiffy account, just supply your own API key.",
+      "author": {
+        "name": "Julian Dickie",
+        "url": "https://github.com/juliandickie"
+      },
+      "homepage": "https://github.com/juliandickie/spiffy-plugin",
+      "repository": "https://github.com/juliandickie/spiffy-plugin",
+      "license": "MIT",
+      "category": "marketing-automation",
+      "keywords": ["spiffy", "checkout", "commerce", "crm", "customer-lookup", "reports", "mrr", "affiliate", "promo-codes", "mcp"]
+    }
+  ]
+}
