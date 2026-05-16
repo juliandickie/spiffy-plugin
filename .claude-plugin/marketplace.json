@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "spiffy",
-      "source": ".",
+      "source": "./",
       "description": "Talk to the Spiffy checkout platform from Claude Code. Customer lookup, MRR and affiliate and churn reports, customer notes, and one-off promo code generation. Works with any Spiffy account, just supply your own API key.",
       "author": {
         "name": "Julian Dickie",
