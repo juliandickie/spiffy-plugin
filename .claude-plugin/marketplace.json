@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Talk to the Spiffy checkout platform from Claude Code. Works with any Spiffy account, just supply your own API key.",
-    "version": "0.2.3"
+    "version": "0.2.4"
   },
   "plugins": [
     {
