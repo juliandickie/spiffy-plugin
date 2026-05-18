@@ -18,15 +18,13 @@ Or via the outfit catalog -
 
 ## Configure
 
-Set your Spiffy API key. Three options -
+Set your Spiffy API key. Two options -
 
-1. `SPIFFY_API_KEY` env var (a literal 64-char hex key, or a 1Password `op://` reference)
+1. The `SPIFFY_API_KEY` environment variable (a literal 64-character hex key, or a 1Password `op://` reference)
 
-2. `~/.config/spiffy-plugin/config.toml` with `api_key = "..."`
+2. A TOML file at `~/.config/spiffy-plugin/config.toml` containing `api_key = "your_key"` (TOML syntax, not dotenv `SPIFFY_API_KEY=`)
 
-3. A repo-root `.env` with `SPIFFY_API_KEY=...`
-
-Get your key from the Spiffy dashboard under Settings - API.
+There is no repo-root `.env` option, the plugin has no dotenv loader. Get your key from the Spiffy dashboard under Settings - API.
 
 ## Source and development
 
